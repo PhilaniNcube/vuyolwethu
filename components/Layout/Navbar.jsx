@@ -5,27 +5,34 @@ import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 const Navbar = () => {
   return (
     <Fragment>
-      <header className="bg-white py-4 shadow">
-        <nav className="mx-auto flex h-12 max-w-6xl items-center px-6 lg:justify-between lg:px-0">
+      <header className="bg-white  shadow">
+        <nav className="mx-auto flex max-w-6xl items-center px-6 md:h-20 lg:justify-between lg:px-0">
           <Link href="/" passHref>
-            <h2 className="text-2xl font-extrabold uppercase text-black">
-              Vuyo<span className="text-red-600">lwethu</span>
-            </h2>
+            <img
+              src="/images/logo.png"
+              alt="logo"
+              className="h-16 cursor-pointer object-cover"
+            />
           </Link>
           <div className="flex items-center space-x-10">
             <ul className="hidden items-center font-semibold md:flex md:space-x-3">
               <Link href="/">
-                <li className="text-md cursor-pointer text-black hover:text-lime-600 focus:text-lime-600">
+                <li className="text-md cursor-pointer text-gray-700 hover:text-lime-600 focus:text-lime-600">
                   Home
                 </li>
               </Link>
               <Link href="/services">
-                <li className="text-md cursor-pointer text-black hover:text-lime-600 focus:text-lime-600">
+                <li className="text-md cursor-pointer text-gray-700 hover:text-lime-600 focus:text-lime-600">
                   Services
                 </li>
               </Link>
+              <Link href="/products">
+                <li className="text-md cursor-pointer text-gray-700 hover:text-lime-600 focus:text-lime-600">
+                  Our Products
+                </li>
+              </Link>
               <Link href="/contact">
-                <li className="text-md cursor-pointer text-black hover:text-lime-600 focus:text-lime-600">
+                <li className="text-md cursor-pointer text-gray-700 hover:text-lime-600 focus:text-lime-600">
                   Contact Us
                 </li>
               </Link>
