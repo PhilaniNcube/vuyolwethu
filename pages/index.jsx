@@ -1,10 +1,10 @@
 import { Fragment } from 'react'
-import Hero from '../components/Home/Hero'
+import Video from '../components/Home/Video'
 
 export default function Home() {
   return (
     <Fragment>
-      <Hero />
+      <Video />
     </Fragment>
   )
 }
