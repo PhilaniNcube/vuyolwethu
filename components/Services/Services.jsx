@@ -10,8 +10,9 @@ const Services = () => {
             Why choose <span className="font-bold">Us?</span>
           </h1>
           <p className="text-md mt-4">
-            We create employment opportunities in Gqeberha.We create quality
-            designs. We conclude any job within allocated time frame.
+            We specialize in quality, affordable, custom designs that will make
+            your home standout in your city. We conclude any job within
+            allocated time frame.
           </p>
 
           <div className="mt-3 grid grid-cols-2 gap-5 md:grid-cols-3">
@@ -48,7 +49,7 @@ const Services = () => {
         <ol className="max-w-[80%] list-decimal pl-3">
           <li className="text-sm text-gray-600">
             Manufacturing of our products can take 1 to 5 business days
-            depending on the size of the job
+            depending on the size of the job.
           </li>
           <li className="text-sm text-gray-600">
             50% deposit is required before we commence manufacturing any our
@@ -86,7 +87,7 @@ const Services = () => {
           </li>
           <li className="text-sm text-gray-600">
             Any defect caused by the client, the client will be charged to
-            replace or repair
+            replace or repair.
           </li>
           <li className="text-sm text-gray-600">
             Any product manufactured by us remains our property until it is
@@ -95,7 +96,7 @@ const Services = () => {
           <li className="text-sm text-gray-600">
             Installation period depends on the size of the job and the process.
           </li>
-          <li className="text-sm text-gray-600">We charge R150 for a quote</li>
+          <li className="text-sm text-gray-600">We charge R150 for a quote.</li>
           <li className="text-sm text-gray-600">
             Failure to pay on due date as per our agreement a 5% interest fee
             will be charged on your next payment.
@@ -103,8 +104,7 @@ const Services = () => {
           <li className="text-sm text-gray-600">
             All costs and charges incurred by us as a result of the customer
             failure to comply with the agreed terms of payment, including legal
-            costs, client scale and collection of commission shall be borne by
-            the customer.
+            costs, and collection of commission shall be borne by the customer.
           </li>
         </ol>
       </div>

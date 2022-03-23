@@ -88,8 +88,8 @@ const Products = () => {
                 <div className="carousel-cell">
                   <div className="relative h-full md:w-full">
                     <img
-                      src="/images/two.jpg"
-                      alt="window"
+                      src="/images/door.jpeg"
+                      alt="door"
                       className="object-fit h-full w-full object-cover"
                     />
                   </div>
@@ -99,8 +99,8 @@ const Products = () => {
                 <div className="carousel-cell">
                   <div className="relative h-full md:w-full">
                     <img
-                      src="/images/three.jpg"
-                      alt="window"
+                      src="/images/bars.jpeg"
+                      alt="bars"
                       className="object-fit h-full w-full object-cover"
                     />
                   </div>
@@ -121,8 +121,8 @@ const Products = () => {
                 <div className="carousel-cell">
                   <div className="relative h-full md:w-full">
                     <img
-                      src="/images/five.jpg"
-                      alt="window"
+                      src="/images/gate.jpg"
+                      alt="gate"
                       className="object-fit h-full w-full object-cover"
                     />
                   </div>
