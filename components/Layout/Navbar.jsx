@@ -38,10 +38,18 @@ const Navbar = () => {
               </Link>
             </ul>
             <nav className="flex items-center space-x-3">
-              <FaFacebook className="h-8 w-8 rounded-full text-xl text-lime-600" />
-              <FaInstagram className="h-8 w-8 rounded-full bg-lime-600 p-1 text-xl text-white" />
-              <FaTwitter className="h-8 w-8 rounded-full bg-lime-600 p-1 text-xl text-white" />
-              <FaWhatsapp className="h-8 w-8 rounded-full bg-lime-600 p-1 text-xl text-white" />
+              <Link
+                href="https://www.facebook.com/Vuyolwethu-Aluminium-108004841649868/"
+                passHref
+              >
+                <FaFacebook className="h-8 w-8 rounded-full text-xl text-lime-600" />
+              </Link>
+              <Link
+                href="https://wa.me/27818337421 ?text=I'm%20interested%20in%20your%20products"
+                passHref
+              >
+                <FaWhatsapp className="h-8 w-8 rounded-full bg-lime-600 p-1 text-xl text-white" />
+              </Link>
             </nav>
           </div>
         </nav>
