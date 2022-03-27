@@ -59,15 +59,18 @@ const Video = () => {
           </div>
         </div>
       </div>
-      <video
+      <div
         autoPlay
         loop
         muted
         className="pointer-events-none absolute z-10 min-h-full w-auto min-w-full max-w-none"
       >
-        <source src="/images/video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+        <img
+          src="/images/screen.png"
+          alt="background image"
+          className="h-full w-full"
+        />
+      </div>
     </header>
   )
 }
