@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Carousel from '../Services/Carousel'
 
 const Services = () => {
@@ -15,32 +16,35 @@ const Services = () => {
             allocated time frame.
           </p>
 
-          <div className="mt-3 grid grid-cols-2 gap-5 md:grid-cols-3">
-            <span className="bg-gray-800 py-3 text-center text-sm text-white">
-              Aluminium Windows
-            </span>
-            <span className="bg-gray-800 py-3 text-center text-sm text-white">
-              Aluminium Doors
-            </span>
-            <span className="bg-gray-800 py-3 text-center text-sm text-white">
-              Aluminium Gates
-            </span>
-            <span className="bg-gray-800 py-3 text-center text-sm text-white">
-              Burglar Bars
-            </span>
-            <span className="bg-gray-800 py-3 text-center text-sm text-white">
-              Painting
-            </span>
-            <span className="bg-gray-800 py-3 text-center text-sm text-white">
-              Paving
-            </span>
-            <span className="bg-gray-800 py-3 text-center text-sm text-white">
-              Building
-            </span>
+          <div className="mt-3 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
+            <Link href="/categories/doors" passHref>
+              <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
+                Aluminium Doors
+              </span>
+            </Link>
+            <Link href="/categories/windows" passHref>
+              <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
+                Aluminium Windows
+              </span>
+            </Link>
+            <Link href="/categories/bars" passHref>
+              <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
+                Aluminium Burglar Bars
+              </span>
+            </Link>
+            <Link href="/categories/gates" passHref>
+              <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
+                Aluminium Foldable Security gates
+              </span>
+            </Link>
           </div>
         </div>
       </div>
+
       <div className="mx-auto max-w-6xl">
+        <h2 className="mt-4 text-lg font-bold text-gray-700 md:text-3xl">
+          We also do installation of Aluminium fixtures
+        </h2>
         <Carousel />
       </div>
       <div className="mx-auto mt-10 max-w-6xl">
