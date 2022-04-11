@@ -36,17 +36,21 @@ const About = () => {
               on aluminium, plumbing, painting, and electrical repairs.
             </p>
             <p className="mt-3 w-full text-base font-normal leading-6 text-gray-600 xl:w-9/12">
-              We supply Nelson Mandela Bay and surrounding areas such as
-              kariega,Humansdorp, Jeffreys Bay, as well as Buffalo City, Peddie
-              AND Grahamstown.
+              We offer a variety of services such as aluminium windows, doors,
+              sliding doors, folding security gates and burglars. We do repairs
+              on aluminium, plumbing, painting, and electrical repairs. We
+              supply Nelson Mandela Bay and surrounding areas such as Kariega,
+              Humansdorp, Jeffreys Bay, as well as Buffalo City, Peddie and
+              Grahamstown.
             </p>
             <p className="mt-3 w-full text-base font-normal leading-6 text-gray-600 xl:w-9/12">
               Vuyolwethu Bay Trading Pty Ltd trading as Vuyolwethu Aluminium is
               a registered Aluminium manufacturing company based in Gqeberha
-              formely known as Port Elizabeth. It is 100% black owned company
+              formerly known as Port Elizabeth. It is 100% black owned company.
             </p>
 
-            <h2 className="mt-10 text-3xl font-bold leading-7 text-lime-800 lg:text-4xl lg:leading-9">
+            {/** 
+           <h2 className="mt-10 text-3xl font-bold leading-7 text-lime-800 lg:text-4xl lg:leading-9">
               Our Vision and Mission:
             </h2>
             <p className="mt-3 w-full text-base font-normal leading-6 text-gray-600 xl:w-9/12">
@@ -83,6 +87,7 @@ const About = () => {
               Vuyolwethu Aluminium is committed to serve and deliver with
               integrity.
             </p>
+          **/}
           </div>
           <div className="mt-8 w-full cursor-pointer sm:mt-10 lg:mt-0 lg:w-5/12">
             <img

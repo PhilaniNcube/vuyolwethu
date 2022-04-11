@@ -19,24 +19,37 @@ const Services = () => {
           <div className="mt-3 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
             <Link href="/categories/doors" passHref>
               <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
-                Aluminium Doors
+                View Aluminium Doors
               </span>
             </Link>
             <Link href="/categories/windows" passHref>
               <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
-                Aluminium Windows
+                View Aluminium Windows
               </span>
             </Link>
             <Link href="/categories/bars" passHref>
               <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
-                Aluminium Burglar Bars
+                View Aluminium Burglar Bars
               </span>
             </Link>
             <Link href="/categories/gates" passHref>
               <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
-                Aluminium Foldable Security gates
+                View Aluminium Foldable Security gates
               </span>
             </Link>
+
+            <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
+              Painting
+            </span>
+            <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
+              Paiving
+            </span>
+            <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
+              Building
+            </span>
+            <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
+              Installation
+            </span>
           </div>
         </div>
       </div>

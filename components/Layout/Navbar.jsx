@@ -31,6 +31,11 @@ const Navbar = () => {
                   Our Products
                 </li>
               </Link>
+              <Link href="/about">
+                <li className="text-md cursor-pointer text-gray-700 hover:text-lime-600 focus:text-lime-600">
+                  About Us
+                </li>
+              </Link>
               <Link href="/contact">
                 <li className="text-md cursor-pointer text-gray-700 hover:text-lime-600 focus:text-lime-600">
                   Contact Us
