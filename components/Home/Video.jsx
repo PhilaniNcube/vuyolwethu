@@ -22,7 +22,7 @@ const Video = () => {
 
           <Link href="/contact">
             <a className="z-50 cursor-pointer rounded-lg bg-lime-600 px-10 py-2 text-base font-medium">
-              Lear More
+              Learn More
             </a>
           </Link>
 
