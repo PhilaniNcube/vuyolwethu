@@ -11,18 +11,18 @@ const gates = () => {
           <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
             <div className="w-full">
               <img
-                src="/images/gate-1.jpg"
+                src="/images/gate-8.jpg"
                 alt="aluminium gates"
-                className="h-80 w-full object-cover"
+                className="h-80 w-full object-contain"
               />
             </div>
           </div>
           <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
             <div className="w-full">
               <img
-                src="/images/gate-2.jpg"
+                src="/images/gate-9.jpg"
                 alt="aluminium gates"
-                className="h-80 w-full object-cover"
+                className="h-80 w-full object-contain"
               />
             </div>
           </div>
@@ -31,7 +31,7 @@ const gates = () => {
               <img
                 src="/images/gate-3.jpg"
                 alt="aluminium gates"
-                className="h-80 w-full object-cover"
+                className="h-80 w-full object-contain"
               />
             </div>
           </div>
@@ -40,16 +40,16 @@ const gates = () => {
               <img
                 src="/images/gate-4.jpg"
                 alt="aluminium gates"
-                className="h-80 w-full object-cover"
+                className="h-80 w-full object-contain"
               />
             </div>
           </div>
           <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
             <div className="w-full">
               <img
-                src="/images/gate-6.jpg"
+                src="/images/gate-10.jpg"
                 alt="aluminium gates"
-                className="h-80 w-full object-cover"
+                className="h-80 w-full object-contain"
               />
             </div>
           </div>
@@ -58,7 +58,7 @@ const gates = () => {
               <img
                 src="/images/gate-7.jpg"
                 alt="aluminium gates"
-                className="h-80 w-full object-cover"
+                className="h-80 w-full object-contain"
               />
             </div>
           </div>

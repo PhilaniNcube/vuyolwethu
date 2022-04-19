@@ -56,7 +56,7 @@ export default function Index() {
                   <Slide index={0}>
                     <div className="relative flex w-full flex-shrink-0 sm:w-auto">
                       <img
-                        src="/images/window1.jpeg"
+                        src="/images/door-8.jpg"
                         alt="bars"
                         className="h-full object-cover object-center"
                       />
@@ -90,27 +90,45 @@ export default function Index() {
                     </div>
                   </Slide>
                   <Slide index={4}>
-                    <div className="relative flex w-full flex-shrink-0 sm:w-auto">
+                    <div className="relative flex h-full w-full flex-shrink-0 sm:w-auto">
                       <img
-                        src="/images/window4.jpeg"
-                        alt="window"
+                        src="/images/gallery-1.jpg"
+                        alt="sitting area"
                         className="w-full object-cover object-center"
                       />
                     </div>
                   </Slide>
                   <Slide index={5}>
-                    <div className="relative flex w-full flex-shrink-0 sm:w-auto">
+                    <div className="relative flex h-full w-full flex-shrink-0 sm:w-auto">
                       <img
-                        src="/images/window-bars-2.jpg"
-                        alt="window bars"
-                        className="w-full object-cover object-center"
+                        src="/images/gallery-2.jpg"
+                        alt="sitting area"
+                        className="h-full w-full object-cover object-center"
                       />
                     </div>
                   </Slide>
                   <Slide index={6}>
+                    <div className="relative flex h-full w-full flex-shrink-0 sm:w-auto">
+                      <img
+                        src="/images/gallery-3.jpg"
+                        alt="sitting area"
+                        className="h-full w-full object-cover object-center"
+                      />
+                    </div>
+                  </Slide>
+                  <Slide index={7}>
                     <div className="relative flex w-full flex-shrink-0 sm:w-auto">
                       <img
-                        src="/images/window-bars.jpg"
+                        src="/images/gallery-4.jpg"
+                        alt="sitting area"
+                        className="h-full w-full object-cover object-center"
+                      />
+                    </div>
+                  </Slide>
+                  <Slide index={8}>
+                    <div className="relative flex w-full flex-shrink-0 sm:w-auto">
+                      <img
+                        src="/images/gallery-5.jpg"
                         alt="sitting area"
                         className="w-full object-cover object-center"
                       />

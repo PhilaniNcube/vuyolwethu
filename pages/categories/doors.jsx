@@ -62,6 +62,42 @@ const doors = () => {
               />
             </div>
           </div>
+          <div className="w-[100%]">
+            <div className="w-full">
+              <img
+                src="/images/door-8.jpg"
+                alt="aluminium gates"
+                className="h-80 w-full object-cover"
+              />
+            </div>
+          </div>
+          <div className="w-[100%]">
+            <div className="w-full">
+              <img
+                src="/images/door-9.jpg"
+                alt="aluminium gates"
+                className="h-80 w-full object-cover"
+              />
+            </div>
+          </div>
+          <div className="w-[100%]">
+            <div className="w-full">
+              <img
+                src="/images/door-10.jpg"
+                alt="aluminium gates"
+                className="h-80 w-full object-cover"
+              />
+            </div>
+          </div>
+          <div className="w-[100%]">
+            <div className="w-full">
+              <img
+                src="/images/door-11.jpg"
+                alt="aluminium gates"
+                className="h-80 w-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

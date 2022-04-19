@@ -11,18 +11,38 @@ const bars = () => {
           <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
             <div className="w-full">
               <img
-                src="/images/bars-1.jpg"
+                src="/images/bars-2.jpg"
                 alt="burglar bars"
-                className="h-80 w-full object-cover"
+                className="aspect-video  w-full object-contain"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
+            <div className="w-full">
+              <img
+                src="/images/bars-4.jpg"
+                alt="burglar bars"
+                className="aspect-video  w-full object-contain"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
+            <div className="w-full">
+              <img
+                src="/images/bars-6.jpg"
+                alt="burglar bars"
+                className="aspect-video  w-full object-contain"
               />
             </div>
           </div>
           <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
             <div className="w-full">
               <img
-                src="/images/bars-2.jpg"
+                src="/images/bars-7.jpg"
                 alt="burglar bars"
-                className="h-80 w-full object-cover"
+                className="aspect-video  w-full object-contain"
               />
             </div>
           </div>
@@ -31,25 +51,16 @@ const bars = () => {
               <img
                 src="/images/bars-3.jpg"
                 alt="burglar bars"
-                className="h-80 w-full object-cover"
+                className="aspect-video  w-full object-contain"
               />
             </div>
           </div>
           <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
             <div className="w-full">
               <img
-                src="/images/bars-4.jpg"
+                src="/images/bars-9.jpg"
                 alt="burglar bars"
-                className="h-80 w-full object-cover"
-              />
-            </div>
-          </div>
-          <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
-            <div className="w-full">
-              <img
-                src="/images/bars.jpeg"
-                alt="burglar bars"
-                className="h-80 w-full object-cover"
+                className="aspect-video  w-full object-contain"
               />
             </div>
           </div>

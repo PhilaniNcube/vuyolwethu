@@ -29,7 +29,7 @@ const windows = () => {
           <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
             <div className="w-full">
               <img
-                src="/images/windows-3.jpg"
+                src="/images/windows-12.jpg"
                 alt="aluminium windows"
                 className="h-80 w-full object-cover"
               />
@@ -38,21 +38,13 @@ const windows = () => {
           <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
             <div className="w-full">
               <img
-                src="/images/windows-4.jpeg"
+                src="/images/windows-13.jpg"
                 alt="aluminium windows"
                 className="h-80 w-full object-cover"
               />
             </div>
           </div>
-          <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
-            <div className="w-full">
-              <img
-                src="/images/windows-2.jpg"
-                alt="aluminium windows"
-                className="h-80 w-full object-cover"
-              />
-            </div>
-          </div>
+
           <div className="flex flex-col items-start justify-start space-y-3 md:space-y-4">
             <div className="w-full">
               <img
