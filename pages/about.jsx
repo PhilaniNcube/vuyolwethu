@@ -36,12 +36,7 @@ const About = () => {
               on aluminium, plumbing, painting, and electrical repairs.
             </p>
             <p className="mt-3 w-full text-base font-normal leading-6 text-gray-600 xl:w-9/12">
-              We offer a variety of services such as aluminium windows, doors,
-              sliding doors, folding security gates and burglars. We do repairs
-              on aluminium, plumbing, painting, and electrical repairs. We
-              supply Nelson Mandela Bay and surrounding areas such as Kariega,
-              Humansdorp, Jeffreys Bay, as well as Buffalo City, Peddie and
-              Grahamstown.
+            We supply Nelson Mandela Bay and surrounding areas such as Kariega, Humansdorp, Jeffreys Bay, as well as Buffalo City, Peddie and Grahamstown.
             </p>
             <p className="mt-3 w-full text-base font-normal leading-6 text-gray-600 xl:w-9/12">
               Vuyolwethu Bay Trading Pty Ltd trading as Vuyolwethu Aluminium is

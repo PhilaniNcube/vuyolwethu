@@ -42,7 +42,7 @@ const Services = () => {
               Painting
             </span>
             <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
-              Paiving
+              Paving
             </span>
             <span className="cursor-pointer bg-gray-800 py-3 text-center text-sm text-white hover:bg-gray-700">
               Building
