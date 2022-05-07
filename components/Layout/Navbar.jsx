@@ -50,7 +50,7 @@ const Navbar = () => {
                 <FaFacebook className="h-8 w-8 rounded-full text-xl text-lime-600" />
               </Link>
               <Link
-                href="https://wa.me/27818337421 ?text=I'm%20interested%20in%20your%20products"
+                href="https://wa.me/27818337421?text=I'm%20interested%20in%20your%20products"
                 passHref
               >
                 <FaWhatsapp className="h-8 w-8 rounded-full bg-lime-600 p-1 text-xl text-white" />

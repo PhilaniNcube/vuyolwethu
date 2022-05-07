@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "analytics": "^0.8.1",
     "framer-motion": "^6.2.3",
     "next": "latest",
     "pure-react-carousel": "^1.28.0",

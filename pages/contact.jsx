@@ -28,28 +28,46 @@ export default function MyApp() {
             <h2 className="text-lg font-semibold text-gray-50">
               Send us a message
             </h2>
-            <input
-              className="mt-4 rounded-md border border-gray-300 p-4 text-base text-gray-600 focus:border-gray-700 focus:outline-none md:mt-6"
-              type="text"
-              aria-label="Name"
-              placeholder="Enter your Name"
-            />
-            <input
-              className="mt-4 rounded-md border border-gray-300 p-4 text-base text-gray-600 focus:border-gray-700 focus:outline-none"
-              type="email"
-              aria-label="Email"
-              placeholder="Enter your email"
-            />
-            <textarea
-              name=""
-              id=""
-              aria-label="Your message"
-              placeholder="Message"
-              className="mt-4 h-48 w-full resize-none rounded-md border border-gray-300 p-4 text-base text-gray-600 focus:border-gray-700 focus:outline-none md:mt-6 lg:h-36 xl:h-48 2xl:h-56"
-            ></textarea>
-            <button className="mt-4 rounded-md bg-white p-4 text-base font-medium leading-4 text-lime-600  focus:outline-none focus:ring-2  focus:ring-offset-2 md:mt-5">
-              Send
-            </button>
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              className="w-full"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value={process.env.NEXT_PUBLIC_WEBFORMS_ACCESS_KEY}
+              ></input>
+              <div className="flex flex-col space-y-3">
+                <input
+                  className="mt-4 rounded-md border border-gray-300 p-4 text-base text-gray-600 focus:border-gray-700 focus:outline-none md:mt-6"
+                  type="text"
+                  aria-label="Name"
+                  placeholder="Enter your Name"
+                />
+                <input
+                  className="mt-4 rounded-md border border-gray-300 p-4 text-base text-gray-600 focus:border-gray-700 focus:outline-none"
+                  type="email"
+                  aria-label="Email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://web3forms.com/success"
+              ></input>
+              <textarea
+                name=""
+                id=""
+                aria-label="Your message"
+                placeholder="Message"
+                className="mt-4 h-48 w-full resize-none rounded-md border border-gray-300 p-4 text-base text-gray-600 focus:border-gray-700 focus:outline-none md:mt-6 lg:h-36 xl:h-48 2xl:h-56"
+              ></textarea>
+              <button className="mt-4 rounded-md bg-white p-4 text-base font-medium leading-4 text-lime-600  focus:outline-none focus:ring-2  focus:ring-offset-2 md:mt-5">
+                Send
+              </button>
+            </form>
           </div>
         </div>
       </div>
