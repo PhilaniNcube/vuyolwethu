@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@analytics/google-tag-manager": "^0.5.2",
     "analytics": "^0.8.1",
     "framer-motion": "^6.2.3",
     "next": "latest",
