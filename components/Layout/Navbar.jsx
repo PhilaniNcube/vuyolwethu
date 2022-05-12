@@ -103,27 +103,42 @@ const Navbar = () => {
             {show && (
               <div className="absolute top-16 left-4 z-50 flex w-1/2 min-w-[150px] max-w-[300px] flex-col space-y-2 rounded-sm bg-gray-50 px-4 py-4 shadow-lg md:hidden">
                 <Link href="/">
-                  <a className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400">
+                  <a
+                    onClick={() => setShow(false)}
+                    className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400"
+                  >
                     Home
                   </a>
                 </Link>
                 <Link href="/services">
-                  <a className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400">
+                  <a
+                    onClick={() => setShow(false)}
+                    className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400"
+                  >
                     Services
                   </a>
                 </Link>
                 <Link href="/products">
-                  <a className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400">
+                  <a
+                    onClick={() => setShow(false)}
+                    className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400"
+                  >
                     Our Products
                   </a>
                 </Link>
                 <Link href="/about">
-                  <a className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400">
+                  <a
+                    onClick={() => setShow(false)}
+                    className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400"
+                  >
                     About Us
                   </a>
                 </Link>
                 <Link href="/contact">
-                  <a className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400">
+                  <a
+                    onClick={() => setShow(false)}
+                    className="block rounded-lg py-2 px-4 text-sm hover:bg-gray-400"
+                  >
                     Contact Us
                   </a>
                 </Link>

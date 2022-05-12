@@ -4,8 +4,8 @@ import Carousel from '../Services/Carousel'
 
 const Services = () => {
   return (
-    <section>
-      <div className="bg-lime-600 text-white">
+    <section className="px-4 md:px-2">
+      <div className="bg-lime-600 px-2 text-white">
         <div className="mx-auto max-w-6xl py-12">
           <h1 className="text-4xl font-extralight uppercase text-white md:text-6xl">
             Why choose <span className="font-bold">Us?</span>
