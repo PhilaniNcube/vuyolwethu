@@ -4,10 +4,10 @@ import React from 'react'
 const Hero = () => {
   return (
     <div
-      className="bg-gray-600 bg-cover bg-center bg-no-repeat bg-blend-multiply md:h-[90vh]"
+      className="bg-gray-600 bg-cover bg-center bg-no-repeat bg-blend-multiply "
       style={{ backgroundImage: 'url(/images/house.jpg)' }}
     >
-      <div className="mx-auto max-w-6xl py-10 px-8 text-white md:px-0">
+      <div className="mx-auto h-full max-w-6xl py-10 px-8 text-white md:px-0">
         <h1 className="text-4xl font-extralight text-white md:text-6xl">
           We turn your house <br />
           <span className="font-bold">into a home</span>
