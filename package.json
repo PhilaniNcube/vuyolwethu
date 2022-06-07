@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "sitemap": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
     "@analytics/google-tag-manager": "^0.5.2",
@@ -20,6 +21,7 @@
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
     "autoprefixer": "^10.4.0",
+    "next-sitemap": "^3.0.5",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.1",
