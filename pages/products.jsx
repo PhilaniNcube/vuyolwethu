@@ -5,6 +5,7 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
+import Head from 'next/head'
 
 const Products = () => {
   const [show, setShow] = useState('')
@@ -18,6 +19,13 @@ const Products = () => {
 
   return (
     <div className="container mx-auto w-full py-12 px-4 md:px-6 md:pl-6">
+      <Head>
+      <title>Products | Vuyolwethu Aluminium</title>
+        <meta charSet='UTF-8' />
+        <meta name="description" content="We replace your old wooden windows with new aluminium windows. Your old wooden door with our beautiful aluminium doors Secure your home with our folding security gates and aluminium burglar bars"/>
+        <meta name="keywords" content="aluminium windows, doors, security gates, building, painting, paving"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <div className="flex flex-col items-center lg:flex-row lg:space-x-12 2xl:space-x-0">
         <div className="lg:w-2/5 2xl:w-3/12">
           <p className="text-3xl font-semibold leading-7 text-gray-800 lg:text-4xl lg:leading-10">

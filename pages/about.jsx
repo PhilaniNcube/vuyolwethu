@@ -1,8 +1,16 @@
 import React from 'react'
+import Head from 'next/head'
 
 const About = () => {
   return (
     <div className="py-9 px-4 md:py-12 md:px-6 lg:py-16 lg:px-20 2xl:container 2xl:mx-auto">
+        <Head>
+      <title>About Us | Vuyolwethu Aluminium</title>
+        <meta charSet='UTF-8' />
+        <meta name="description" content="We offer a variety of services such as aluminium windows, doors, sliding doors, folding security gates and burglars. We do repairs on aluminium, plumbing, painting, and electrical repairs."/>
+        <meta name="keywords" content="aluminium windows, doors, security gates, building, painting, paving"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <div className="relative">
         <div className="top-0 left-0 h-full w-full">
           <div

@@ -1,8 +1,16 @@
 import React from 'react'
+import Head from 'next/head'
 
 export default function MyApp() {
   return (
     <div className="h-[100vh]">
+      <Head>
+      <title>Contact | Vuyolwethu Aluminium</title>
+        <meta charSet='UTF-8' />
+        <meta name="description" content="Contact us"/>
+        <meta name="keywords" content="aluminium windows, doors, security gates, building, painting, paving"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <div className="py-12 lg:py-0 xl:container xl:mx-auto">
         <div className="items-strech mx-4 flex h-full flex-col items-center justify-center lg:flex-row">
           <div className="lg:w-full 2xl:w-3/5">
